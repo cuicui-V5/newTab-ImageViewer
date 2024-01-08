@@ -18,5 +18,8 @@ if (reg.test(path) || document.contentType.startsWith("image")) {
     new Viewer(img, {
         zoomRatio: 0.5,
         toolbar: false,
+        navbar: false,
+        initialCoverage: 1,
+        transition: false,
     }).show([true]);
 }
