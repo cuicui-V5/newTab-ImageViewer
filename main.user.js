@@ -1,10 +1,11 @@
 
 // ==UserScript==
-// @name         newtab-imgviewer
-// @namespace    newtab-imgviewer
-// @version      0.0.0
-// @include      *
-// @run-at       document-end
+// @name           newtab-imgviewer
+// @namespace      newtab-imgviewer
+// @version        0.0.0
+// @description    为新标签页打开的图片添加图片查看器
+// @include        *
+// @run-at         document-end
 // ==/UserScript==
 (function () {
   'use strict';
@@ -3257,7 +3258,11 @@
     // document.body.appendChild(img);
     const img = document.querySelector("img");
     new Viewer(img, {
-      zoomRatio: 0.5
+      zoomRatio: 0.5,
+      toolbar: false,
+      navbar: false,
+      initialCoverage: 1,
+      transition: false
     }).show([true]);
   }
 
