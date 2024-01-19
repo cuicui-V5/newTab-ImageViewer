@@ -1,30 +1,30 @@
 {
-  "name": "newtab-imgviewer",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "rollup --config --environment BUILD:development --watch",
-    "build": "rollup --config"
-  },
-  "devDependencies": {
-    "@homegrown/rollup-plugin-postcss-modules": "^2.0.2",
-    "@rollup/plugin-alias": "^3.1.8",
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-image": "^2.1.1",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^13.0.6",
-    "autoprefixer": "^10.3.7",
-    "core-js": "3.18.3",
-    "postcss": "^8.3.11",
-    "rollup": "^2.58.0",
-    "rollup-plugin-postcss": "^4.0.1",
-    "rollup-plugin-svg-to-symbol": "^1.0.0",
-    "rollup-plugin-tampermonkey-header": "^0.1.6"
-  },
-  "dependencies": {
-    "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8",
-    "@rollup/plugin-babel": "^5.3.0",
-    "viewerjs": "^1.11.6"
-  },
-  "browserslist": "chrome >= 31, edge >= 20, safari >= 6, firefox >= 52, opera >= 15 and > 0.2%"
+    "name": "newtab-imgviewer",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "rollup --config --environment BUILD:development --watch",
+        "build": "rollup --config"
+    },
+    "devDependencies": {
+        "@homegrown/rollup-plugin-postcss-modules": "^2.0.2",
+        "@rollup/plugin-alias": "^3.1.8",
+        "@rollup/plugin-commonjs": "^21.0.1",
+        "@rollup/plugin-image": "^2.1.1",
+        "@rollup/plugin-json": "^4.1.0",
+        "@rollup/plugin-node-resolve": "^13.0.6",
+        "autoprefixer": "^10.3.7",
+        "core-js": "3.18.3",
+        "postcss": "^8.3.11",
+        "rollup": "^2.58.0",
+        "rollup-plugin-postcss": "^4.0.1",
+        "rollup-plugin-svg-to-symbol": "^1.0.0",
+        "rollup-plugin-tampermonkey-header": "^0.1.6"
+    },
+    "dependencies": {
+        "@babel/core": "^7.15.8",
+        "@babel/preset-env": "^7.15.8",
+        "@rollup/plugin-babel": "^5.3.0",
+        "viewerjs": "^1.11.6"
+    },
+    "browserslist": "chrome >= 31, edge >= 20, safari >= 6, firefox >= 52, opera >= 15 and > 0.2%"
 }
